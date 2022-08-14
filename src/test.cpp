@@ -1,13 +1,9 @@
+#include "test.h"
 #include <cstdio>
 #include <stdio.h>
 
-struct Foo {
-  int a;
-  int b;
-  char c[10];
-};
-
-struct Bar {
+class Bar {
+public:
   Foo f1;
   Foo f2;
   int bb;
