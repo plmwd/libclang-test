@@ -21,7 +21,7 @@ def find_project_root(patterns: Optional[List[str | Path]]=None) -> Optional[Pat
     return cwd
 
 def traverse(node, depth=0):
-    print(f'{"  " * depth} displayname={node.displayname}, kind={node.kind}, type={node.type.spelling}')
+    print(f'{"  " * depth} displayname={node.displayname}, kind={node.kind}, type={node.type.spelling}, size={node.type.get_size()}')
     for child in node.get_children():
         traverse(child, depth + 1)
 
