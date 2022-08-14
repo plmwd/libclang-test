@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/paulwood/workspace/libclang-test",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/test.dir/src/test.cpp.o -c /Users/paulwood/workspace/libclang-test/src/test.cpp",
+  "file": "/Users/paulwood/workspace/libclang-test/src/test.cpp"
+}
+]
